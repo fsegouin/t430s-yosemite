@@ -7,12 +7,17 @@ you use MacBookPro9,2.
 
 ## System specs
 
-System: Lenovo T430s 2349N7G
-CPU: Intel Core i5 3320M (2,6 GHz)
-Graphics: Intel HD Graphics HD4000, 1600x900
-SSD: Samsung 840 Pro 256GB
-Audio: Realtek ALC269VC
-WLAN: TP-Link TL-WN725N (RTL8188CUS)
+**System:** Lenovo T430s
+
+**CPU:** Intel Core i5 3320M (2,6 GHz)
+
+**Graphics:** Intel HD Graphics HD4000, 1600x900
+
+**SSD:** Samsung 840 Pro 256GB
+
+**Audio:** Realtek ALC269VC
+
+**WLAN:** TP-Link TL-WN725N (RTL8188CUS)
 
 ### What works
 
