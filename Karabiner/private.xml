@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root>
+  <!-- shell commands -->
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_screen_saver</name>
+    <url type="shell">
+      <![CDATA[/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine]]>
+    </url>
+  </vkopenurldef>
+
+  <item>
+      <name>Lock screen with F3 (Lock shortcut)</name>
+      <identifier>private.lock_screen_with_f3</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::F3,
+        KeyCode::VK_OPEN_URL_SHELL_screen_saver,
+      </autogen>
+    </item>
+  <item>
+    <name>Swap square sign to less than sign</name>
+    <identifier>private.swap_square_and_less_than</identifier>
+    <autogen>__KeyToKey__ KeyCode::RawValue::0x0a, KeyCode::RawValue::0x32</autogen>
+    <autogen>__KeyToKey__ KeyCode::RawValue::0x32, KeyCode::RawValue::0x0a</autogen>
+  </item>
+  <item>
+    <name>Map Brightness Up/Brightness Down to Fn keys</name>
+    <identifier>private.map_brightness_up_and_down_to_fn_keys</identifier>
+    <autogen>__KeyToKey__ KeyCode::F8, KeyCode::F14</autogen>
+    <autogen>__KeyToKey__ KeyCode::F9, KeyCode::F15</autogen>
+  </item>
+</root>
